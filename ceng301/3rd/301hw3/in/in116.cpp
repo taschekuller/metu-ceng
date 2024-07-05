@@ -1,0 +1,214 @@
+#include <iostream>
+#include "../your_code/ScapegoatTree.cpp"
+int main() {
+ScapegoatTree<int> *a=new ScapegoatTree<int>;
+std::cout << "Line no:" << 5 << " " << (a->insert(396)) << std::endl;
+std::cout << "Line no:" << 6 << " " << (a->insert(467)) << std::endl;
+std::cout << "Line no:" << 7 << " " << ((a->remove(198))==false) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 9 << " " << (a->remove(467)) << std::endl;
+std::cout << "Line no:" << 10 << " " << ((a->remove(211))==false) << std::endl;
+std::cout << "Line no:" << 11 << " " << (a->insert(384)) << std::endl;
+std::cout << "Line no:" << 12 << " " << (a->remove(384)) << std::endl;
+std::cout << "Line no:" << 13 << " " << (a->insert(245)) << std::endl;
+std::cout << "Line no:" << 14 << " " << ((a->remove(282))==false) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 16 << " " << (a->remove(245)) << std::endl;
+std::cout << "Line no:" << 17 << " " << (a->insert(58)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 19 << " " << ((a->remove(90))==false) << std::endl;
+std::cout << "Line no:" << 20 << " " << (a->insert(13)) << std::endl;
+std::cout << "Line no:" << 21 << " " << ((a->insert(396))==false) << std::endl;
+std::cout << "Line no:" << 22 << " " << (a->insert(180)) << std::endl;
+std::cout << "Line no:" << 23 << " " << (a->remove(58)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 25 << " " << (a->insert(480)) << std::endl;
+std::cout << "Line no:" << 26 << " " << (a->insert(249)) << std::endl;
+std::cout << "Line no:" << 27 << " " << (a->remove(396)) << std::endl;
+std::cout << "Line no:" << 28 << " " << (a->remove(13)) << std::endl;
+std::cout << "Line no:" << 29 << " " << (a->remove(480)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 31 << " " << ((a->insert(180))==false) << std::endl;
+std::cout << "Line no:" << 32 << " " << ((a->insert(249))==false) << std::endl;
+std::cout << "Line no:" << 33 << " " << (a->remove(180)) << std::endl;
+std::cout << "Line no:" << 34 << " " << (a->remove(249)) << std::endl;
+std::cout << "Line no:" << 35 << " " << (a->insert(134)) << std::endl;
+std::cout << "Line no:" << 36 << " " << (a->remove(134)) << std::endl;
+std::cout << "Line no:" << 37 << " " << (a->insert(29)) << std::endl;
+std::cout << "Line no:" << 38 << " " << ((a->insert(29))==false) << std::endl;
+std::cout << "Line no:" << 39 << " " << (a->remove(29)) << std::endl;
+std::cout << "Line no:" << 40 << " " << ((a->remove(412))==false) << std::endl;
+std::cout << "Line no:" << 41 << " " << (a->insert(219)) << std::endl;
+std::cout << "Line no:" << 42 << " " << ((a->insert(219))==false) << std::endl;
+std::cout << "Line no:" << 43 << " " << (a->insert(1)) << std::endl;
+std::cout << "Line no:" << 44 << " " << (a->remove(1)) << std::endl;
+std::cout << "Line no:" << 45 << " " << (a->remove(219)) << std::endl;
+std::cout << "Line no:" << 46 << " " << (a->insert(243)) << std::endl;
+std::cout << "Line no:" << 47 << " " << (a->insert(295)) << std::endl;
+std::cout << "Line no:" << 48 << " " << (a->remove(243)) << std::endl;
+std::cout << "Line no:" << 49 << " " << (a->insert(244)) << std::endl;
+std::cout << "Line no:" << 50 << " " << (a->remove(244)) << std::endl;
+std::cout << "Line no:" << 51 << " " << (a->insert(18)) << std::endl;
+std::cout << "Line no:" << 52 << " " << ((a->remove(475))==false) << std::endl;
+std::cout << "Line no:" << 53 << " " << (a->remove(295)) << std::endl;
+try{std::cout <<"Line no:" << 54 << " " << a->getMin() << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 55 << " " << a->getMax() << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 56 << " " << a->getFloor(18) << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 57 << " " << a->getCeiling(18) << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 58 << " " << a->getNext(18) << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 59 << " " << a->get(18) << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 60 << " " << a->getHeight() << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 61 << " " << a->getSize() << std::endl;}catch(NoSuchItemException a){;}
+std::cout << "Line no:" << 62 << " " << ((a->insert(18))==false) << std::endl;
+std::cout << "Line no:" << 63 << " " << (a->remove(18)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 65 << " " << ((a->remove(55))==false) << std::endl;
+ScapegoatTree<int> *b=new ScapegoatTree<int>;
+*b=*b;
+std::cout << "Line no:" << 68 << " " << ((a->remove(256))==false) << std::endl;
+*b=*b;
+std::cout << "Line no:" << 70 << " " << ((a->remove(382))==false) << std::endl;
+b->printPretty();
+std::cout << "Line no:" << 72 << " " << (a->insert(466)) << std::endl;
+std::cout << "Line no:" << 73 << " " << ((b->remove(117))==false) << std::endl;
+std::cout << "Line no:" << 74 << " " << (a->remove(466)) << std::endl;
+a->printPretty();
+b->printPretty();
+std::cout << "Line no:" << 77 << " " << (a->insert(6)) << std::endl;
+std::cout << "Line no:" << 78 << " " << (b->insert(214)) << std::endl;
+std::cout << "Line no:" << 79 << " " << (b->insert(447)) << std::endl;
+std::cout << "Line no:" << 80 << " " << (b->remove(214)) << std::endl;
+std::cout << "Line no:" << 81 << " " << (b->insert(271)) << std::endl;
+std::cout << "Line no:" << 82 << " " << (b->remove(447)) << std::endl;
+std::cout << "Line no:" << 83 << " " << (b->insert(197)) << std::endl;
+std::cout << "Line no:" << 84 << " " << (b->insert(245)) << std::endl;
+std::cout << "Line no:" << 85 << " " << ((b->insert(271))==false) << std::endl;
+std::cout << "Line no:" << 86 << " " << ((b->remove(130))==false) << std::endl;
+std::cout << "Line no:" << 87 << " " << ((b->insert(271))==false) << std::endl;
+std::cout << "Line no:" << 88 << " " << (b->remove(271)) << std::endl;
+std::cout << "Line no:" << 89 << " " << (b->insert(359)) << std::endl;
+std::cout << "Line no:" << 90 << " " << (a->remove(6)) << std::endl;
+*b=*a;
+std::cout << "Line no:" << 92 << " " << (b->insert(396)) << std::endl;
+std::cout << "Line no:" << 93 << " " << (a->insert(426)) << std::endl;
+std::cout << "Line no:" << 94 << " " << (b->remove(396)) << std::endl;
+std::cout << "Line no:" << 95 << " " << ((a->insert(426))==false) << std::endl;
+std::cout << "Line no:" << 96 << " " << (a->insert(36)) << std::endl;
+std::cout << "Line no:" << 97 << " " << ((b->remove(315))==false) << std::endl;
+std::cout << "Line no:" << 98 << " " << (a->remove(426)) << std::endl;
+b->printPretty();
+std::cout << "Line no:" << 100 << " " << (b->insert(156)) << std::endl;
+std::cout << "Line no:" << 101 << " " << ((a->remove(42))==false) << std::endl;
+std::cout << "Line no:" << 102 << " " << ((b->insert(156))==false) << std::endl;
+b->printPretty();
+std::cout << "Line no:" << 104 << " " << (b->insert(418)) << std::endl;
+try{std::cout <<"Line no:" << 105 << " " << a->getMin() << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 106 << " " << a->getMax() << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 107 << " " << a->getFloor(36) << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 108 << " " << a->getCeiling(36) << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 109 << " " << a->getNext(36) << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 110 << " " << a->get(36) << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 111 << " " << a->getHeight() << std::endl;}catch(NoSuchItemException a){;}
+try{std::cout <<"Line no:" << 112 << " " << a->getSize() << std::endl;}catch(NoSuchItemException a){;}
+std::cout << "Line no:" << 113 << " " << (a->insert(180)) << std::endl;
+std::cout << "Line no:" << 114 << " " << ((b->insert(156))==false) << std::endl;
+std::cout << "Line no:" << 115 << " " << (a->insert(75)) << std::endl;
+std::cout << "Line no:" << 116 << " " << (a->remove(75)) << std::endl;
+std::cout << "Line no:" << 117 << " " << (a->remove(180)) << std::endl;
+std::cout << "Line no:" << 118 << " " << (b->insert(204)) << std::endl;
+*a=*b;
+std::cout << "Line no:" << 120 << " " << ((b->insert(204))==false) << std::endl;
+std::cout << "Line no:" << 121 << " " << (b->insert(489)) << std::endl;
+std::cout << "Line no:" << 122 << " " << ((b->insert(489))==false) << std::endl;
+std::cout << "Line no:" << 123 << " " << (b->remove(204)) << std::endl;
+std::cout << "Line no:" << 124 << " " << ((b->insert(156))==false) << std::endl;
+std::cout << "Line no:" << 125 << " " << (b->insert(343)) << std::endl;
+std::cout << "Line no:" << 126 << " " << (a->insert(19)) << std::endl;
+std::cout << "Line no:" << 127 << " " << (a->insert(137)) << std::endl;
+std::cout << "Line no:" << 128 << " " << (a->remove(156)) << std::endl;
+*a=*a;
+std::cout << "Line no:" << 130 << " " << ((a->remove(398))==false) << std::endl;
+std::cout << "Line no:" << 131 << " " << (a->insert(211)) << std::endl;
+std::cout << "Line no:" << 132 << " " << (b->remove(343)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 134 << " " << ((b->remove(158))==false) << std::endl;
+std::cout << "Line no:" << 135 << " " << (b->remove(156)) << std::endl;
+std::cout << "Line no:" << 136 << " " << (b->insert(102)) << std::endl;
+std::cout << "Line no:" << 137 << " " << ((b->remove(85))==false) << std::endl;
+std::cout << "Line no:" << 138 << " " << ((a->insert(211))==false) << std::endl;
+std::cout << "Line no:" << 139 << " " << ((b->remove(375))==false) << std::endl;
+std::cout << "Line no:" << 140 << " " << (b->insert(10)) << std::endl;
+std::cout << "Line no:" << 141 << " " << (a->insert(53)) << std::endl;
+std::cout << "Line no:" << 142 << " " << (b->insert(349)) << std::endl;
+std::cout << "Line no:" << 143 << " " << (b->remove(102)) << std::endl;
+b->printPretty();
+std::cout << "Line no:" << 145 << " " << (b->remove(10)) << std::endl;
+std::cout << "Line no:" << 146 << " " << (b->insert(259)) << std::endl;
+std::cout << "Line no:" << 147 << " " << (a->remove(137)) << std::endl;
+std::cout << "Line no:" << 148 << " " << ((b->remove(116))==false) << std::endl;
+std::cout << "Line no:" << 149 << " " << (b->remove(418)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 151 << " " << (b->insert(256)) << std::endl;
+std::cout << "Line no:" << 152 << " " << (a->remove(19)) << std::endl;
+std::cout << "Line no:" << 153 << " " << (a->remove(53)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 155 << " " << (b->insert(33)) << std::endl;
+std::cout << "Line no:" << 156 << " " << (a->remove(211)) << std::endl;
+std::cout << "Line no:" << 157 << " " << (a->remove(418)) << std::endl;
+std::cout << "Line no:" << 158 << " " << (a->remove(204)) << std::endl;
+*a=*a;
+*b=*b;
+std::cout << "Line no:" << 161 << " " << (b->remove(256)) << std::endl;
+std::cout << "Line no:" << 162 << " " << (a->insert(178)) << std::endl;
+b->printPretty();
+std::cout << "Line no:" << 164 << " " << (b->insert(167)) << std::endl;
+std::cout << "Line no:" << 165 << " " << (a->insert(441)) << std::endl;
+std::cout << "Line no:" << 166 << " " << (b->insert(59)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 168 << " " << (a->remove(178)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 170 << " " << ((b->insert(167))==false) << std::endl;
+std::cout << "Line no:" << 171 << " " << (b->insert(483)) << std::endl;
+std::cout << "Line no:" << 172 << " " << (b->insert(486)) << std::endl;
+std::cout << "Line no:" << 173 << " " << ((b->insert(349))==false) << std::endl;
+std::cout << "Line no:" << 174 << " " << (b->insert(294)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 176 << " " << ((a->insert(441))==false) << std::endl;
+std::cout << "Line no:" << 177 << " " << (a->remove(441)) << std::endl;
+std::cout << "Line no:" << 178 << " " << (b->remove(33)) << std::endl;
+*b=*b;
+std::cout << "Line no:" << 180 << " " << ((b->insert(59))==false) << std::endl;
+std::cout << "Line no:" << 181 << " " << (b->insert(223)) << std::endl;
+std::cout << "Line no:" << 182 << " " << (b->insert(272)) << std::endl;
+std::cout << "Line no:" << 183 << " " << (a->insert(462)) << std::endl;
+std::cout << "Line no:" << 184 << " " << (a->remove(462)) << std::endl;
+std::cout << "Line no:" << 185 << " " << (a->insert(351)) << std::endl;
+std::cout << "Line no:" << 186 << " " << (b->insert(236)) << std::endl;
+std::cout << "Line no:" << 187 << " " << ((a->insert(351))==false) << std::endl;
+std::cout << "Line no:" << 188 << " " << (a->remove(351)) << std::endl;
+std::cout << "Line no:" << 189 << " " << ((b->remove(182))==false) << std::endl;
+std::cout << "Line no:" << 190 << " " << (b->insert(4)) << std::endl;
+std::cout << "Line no:" << 191 << " " << (b->insert(247)) << std::endl;
+std::cout << "Line no:" << 192 << " " << ((b->insert(4))==false) << std::endl;
+std::cout << "Line no:" << 193 << " " << ((b->insert(272))==false) << std::endl;
+std::cout << "Line no:" << 194 << " " << (a->insert(366)) << std::endl;
+std::cout << "Line no:" << 195 << " " << (a->remove(366)) << std::endl;
+*b=*a;
+std::cout << "Line no:" << 197 << " " << (a->insert(105)) << std::endl;
+std::cout << "Line no:" << 198 << " " << (a->remove(105)) << std::endl;
+b->printPretty();
+std::cout << "Line no:" << 200 << " " << (a->insert(363)) << std::endl;
+std::cout << "Line no:" << 201 << " " << (a->remove(363)) << std::endl;
+a->printPretty();
+std::cout << "Line no:" << 203 << " " << (b->insert(215)) << std::endl;
+std::cout << "Line no:" << 204 << " " << ((b->insert(215))==false) << std::endl;
+std::cout << "Line no:" << 205 << " " << (b->insert(151)) << std::endl;
+std::cout << "Line no:" << 206 << " " << (b->remove(151)) << std::endl;
+std::cout << "Line no:" << 207 << " " << (a->insert(345)) << std::endl;
+a->print(preorder);
+a->print(inorder);
+a->print(postorder);
+a->removeAllNodes();
+b->printPretty();
+return 0;
+}

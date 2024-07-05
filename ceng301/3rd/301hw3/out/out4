@@ -1,0 +1,432 @@
+Line no:7 1
+Line no:8 1
+Line no:9 1
+Line no:10 1
+BST_pretty{
+	root:327
+	---r:490
+}
+Line no:12 1
+Line no:13 1
+Line no:14 1
+Line no:15 1
+Line no:16 1
+Line no:17 1
+Line no:18 1
+Line no:19 1
+Line no:20 1
+Line no:21 1
+Line no:22 1
+Line no:23 1
+Line no:24 1
+Line no:25 1
+Line no:26 1
+Line no:27 1
+Line no:28 1
+Line no:29 1
+Line no:30 1
+Line no:31 1
+Line no:32 1
+Line no:33 1
+BST_pretty{
+	root:15
+	---r:240
+	------r:347
+}
+Line no:35 1
+BST_pretty{
+	root:15
+	---r:240
+	------r:347
+}
+Line no:37 1
+Line no:38 1
+Line no:39 1
+Line no:40 1
+Line no:41 1
+Line no:42 1
+Line no:43 1
+Line no:44 1
+Line no:45 1
+Line no:46 1
+Line no:47 43
+Line no:48 347
+Line no:49 43
+Line no:50 43
+Line no:51 240
+Line no:52 43
+Line no:53 1
+Line no:54 3
+Line no:55 1
+Line no:56 1
+Line no:57 1
+BST_pretty{
+	root:28
+	---r:185
+}
+Line no:60 1
+BST_pretty{
+	root:28
+	---r:185
+	------r:407
+}
+Line no:62 1
+BST_pretty{
+	root:28
+	---r:185
+}
+Line no:65 1
+Line no:66 1
+Line no:67 1
+Line no:68 1
+Line no:70 1
+Line no:71 1
+Line no:72 1
+Line no:73 1
+Line no:74 1
+Line no:75 1
+Line no:76 1
+Line no:77 1
+Line no:78 1
+BST_pretty{
+	root:185
+	---r:254
+}
+Line no:80 1
+Line no:81 1
+BST_pretty{
+	root:28
+	---r:158
+	------l:53
+	------r:437
+	---------r:485
+}
+Line no:83 1
+Line no:84 1
+Line no:85 1
+Line no:86 1
+Line no:87 1
+Line no:88 1
+Line no:89 1
+Line no:90 1
+Line no:91 1
+BST_pretty{
+	root:28
+	---r:53
+	------r:437
+	---------r:485
+	------------l:467
+	---------------r:477
+}
+Line no:93 1
+Line no:94 1
+BST_pretty{
+	root:28
+	---r:53
+	------r:485
+	---------l:467
+	------------r:477
+}
+Line no:96 1
+BST_pretty{
+	root:185
+	---l:40
+	------l:18
+	------r:174
+	---r:254
+	------l:226
+	---------l:222
+	------r:403
+	---------l:383
+}
+BST_pretty{
+	root:185
+	---l:40
+	------l:18
+	------r:174
+	---r:254
+	------l:226
+	---------l:222
+	------r:403
+	---------l:383
+}
+Line no:99 1
+Line no:100 1
+Line no:101 1
+Line no:102 1
+Line no:103 1
+Line no:105 28
+Line no:106 485
+Line no:107 403
+Line no:108 403
+Line no:109 467
+Line no:110 403
+Line no:111 4
+Line no:112 6
+Line no:113 1
+Line no:114 1
+Line no:115 1
+Line no:116 1
+Line no:117 1
+Line no:118 1
+Line no:119 1
+Line no:120 1
+Line no:121 1
+Line no:122 1
+Line no:123 1
+Line no:124 1
+Line no:125 1
+Line no:126 1
+Line no:127 1
+Line no:128 1
+Line no:129 1
+Line no:130 1
+Line no:131 1
+Line no:132 1
+Line no:133 1
+Line no:134 1
+Line no:135 1
+Line no:136 1
+Line no:137 1
+Line no:138 1
+Line no:140 1
+Line no:141 1
+Line no:142 1
+Line no:143 1
+Line no:144 1
+Line no:145 1
+Line no:146 1
+Line no:147 1
+Line no:148 1
+Line no:149 1
+Line no:150 1
+Line no:151 1
+Line no:152 1
+Line no:153 1
+BST_pretty{
+	root:254
+	---l:174
+	------l:164
+	------r:208
+	---r:357
+	------l:299
+	------r:383
+	---------r:430
+}
+Line no:155 1
+Line no:157 1
+Line no:158 1
+Line no:159 1
+Line no:160 1
+Line no:161 1
+Line no:162 1
+Line no:163 166
+Line no:164 383
+Line no:165 174
+Line no:166 174
+Line no:167 254
+Line no:168 174
+Line no:169 3
+Line no:170 8
+Line no:171 1
+Line no:172 1
+Line no:173 1
+Line no:174 1
+Line no:175 1
+Line no:176 1
+Line no:177 1
+Line no:178 1
+Line no:179 1
+Line no:180 1
+Line no:181 1
+Line no:182 1
+Line no:184 1
+Line no:185 1
+BST_pretty{
+	root:264
+	---l:166
+	------l:98
+	------r:254
+	---------l:232
+	---r:299
+	------r:383
+	---------l:369
+}
+Line no:187 1
+BST_pretty{
+	root:264
+	---l:166
+	------l:98
+	------r:254
+	---------l:232
+	---r:299
+	------r:369
+}
+Line no:189 1
+Line no:190 1
+Line no:191 1
+Line no:192 1
+Line no:193 1
+BST_pretty{
+	root:264
+	---l:166
+	------l:98
+	---------l:8
+	------r:254
+	---------l:232
+	---r:299
+	------r:369
+	---------r:454
+}
+Line no:195 1
+Line no:196 1
+Line no:197 1
+BST_pretty{
+	root:254
+	---l:174
+	------l:164
+	---------l:69
+	------------l:13
+	------r:208
+	---------l:184
+	---r:357
+	------l:299
+	---------l:270
+	---------r:316
+	------r:430
+	---------l:417
+	---------r:458
+	------------l:456
+}
+BST_pretty{
+	root:254
+	---l:174
+	------l:164
+	---------l:69
+	------------l:13
+	------r:208
+	---------l:184
+	---r:357
+	------l:299
+	---------l:270
+	---------r:316
+	------r:430
+	---------l:417
+	---------r:458
+	------------l:456
+}
+Line no:201 1
+Line no:202 1
+Line no:203 1
+BST_pretty{
+	root:232
+	---l:166
+	------l:98
+	---------l:8
+	---r:299
+	------r:369
+	---------r:454
+	------------r:464
+}
+Line no:205 1
+Line no:206 1
+Line no:207 1
+Line no:208 1
+Line no:209 1
+Line no:210 1
+BST_pretty{
+	root:299
+	---l:166
+	------l:8
+	---------r:105
+	---r:454
+	------l:369
+	------r:464
+}
+Line no:212 1
+Line no:213 1
+Line no:214 1
+BST_pretty{
+	root:299
+	---l:166
+	------l:8
+	---------r:105
+	------------r:119
+	---r:454
+	------l:369
+	---------l:331
+	------r:464
+}
+Line no:216 1
+Line no:217 1
+Line no:218 1
+Line no:219 1
+Line no:220 1
+Line no:221 1
+Line no:222 8
+Line no:223 464
+Line no:224 369
+Line no:225 369
+Line no:226 372
+Line no:227 369
+Line no:228 4
+Line no:229 12
+Line no:230 1
+BST_preorder{
+	299,
+	166,
+	8,
+	3,
+	105,
+	119,
+	454,
+	369,
+	331,
+	306,
+	360,
+	372,
+	464
+}
+BST_inorder{
+	3,
+	8,
+	105,
+	119,
+	166,
+	299,
+	306,
+	331,
+	360,
+	369,
+	372,
+	454,
+	464
+}
+BST_postorder{
+	3,
+	119,
+	105,
+	8,
+	166,
+	306,
+	360,
+	331,
+	372,
+	369,
+	464,
+	454,
+	299
+}
+BST_pretty{
+	root:264
+	---l:166
+	------l:98
+	---------l:8
+	---------r:107
+	------------r:132
+	------r:254
+	---------l:232
+	---r:299
+	------r:369
+	---------r:464
+}
